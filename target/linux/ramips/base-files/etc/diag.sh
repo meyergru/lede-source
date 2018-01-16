@@ -52,6 +52,9 @@ get_status_led() {
 	wn3000rpv3)
 		status_led="$boardname:green:power"
 		;;
+	tplink,tl-mr3020-v3)
+		status_led="tp-link:green:wps"
+		;;
 	3g-6200nl)
 		status_led="$boardname:green:internet"
 		;;
